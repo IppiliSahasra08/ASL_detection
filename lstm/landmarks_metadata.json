@@ -1,0 +1,28 @@
+{
+  "word_to_idx": {
+    "Airplane": 0,
+    "Bad": 1,
+    "Child": 2,
+    "Drink": 3,
+    "Drop": 4,
+    "Sit": 5,
+    "Stop": 6,
+    "Teacher": 7,
+    "Why": 8,
+    "Yes": 9
+  },
+  "idx_to_word": {
+    "0": "Airplane",
+    "1": "Bad",
+    "2": "Child",
+    "3": "Drink",
+    "4": "Drop",
+    "5": "Sit",
+    "6": "Stop",
+    "7": "Teacher",
+    "8": "Why",
+    "9": "Yes"
+  },
+  "num_frames": 30,
+  "input_size": 126
+}

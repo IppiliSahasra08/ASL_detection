@@ -1,0 +1,89 @@
+{
+  "k_fold_results": [
+    {
+      "fold": 1,
+      "accuracy": 0.9
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9
+    },
+    {
+      "fold": 3,
+      "accuracy": 1.0
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.75
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.9473684210526315
+    }
+  ],
+  "mean_accuracy": 0.8994736842105263,
+  "std_accuracy": 0.08335752188191313,
+  "fine_tune_accuracy": 1.0,
+  "per_class_metrics": {
+    "Airplane": {
+      "precision": 0.8571428571428571,
+      "recall": 0.6666666666666666,
+      "f1_score": 0.75,
+      "support": 9
+    },
+    "Bad": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1_score": 0.8421052631578947,
+      "support": 10
+    },
+    "Child": {
+      "precision": 0.7857142857142857,
+      "recall": 1.0,
+      "f1_score": 0.88,
+      "support": 11
+    },
+    "Drink": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1_score": 0.9,
+      "support": 10
+    },
+    "Drop": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 10
+    },
+    "Sit": {
+      "precision": 0.7692307692307693,
+      "recall": 1.0,
+      "f1_score": 0.8695652173913043,
+      "support": 10
+    },
+    "Stop": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 10
+    },
+    "Teacher": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1_score": 0.9473684210526315,
+      "support": 10
+    },
+    "Why": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1_score": 0.9,
+      "support": 10
+    },
+    "Yes": {
+      "precision": 1.0,
+      "recall": 0.7777777777777778,
+      "f1_score": 0.875,
+      "support": 9
+    }
+  }
+}

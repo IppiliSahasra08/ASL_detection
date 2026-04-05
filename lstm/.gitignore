@@ -1,0 +1,17 @@
+# Dependencies
+sign_env/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# Project specific files
+hand_landmarker.task
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Models - Ignored intermediate fold models to save repo space. 
+# best_model.pth and best_model_finetuned.pth will NOT be ignored since they are needed for inference.
+*fold*.pth

@@ -1,0 +1,126 @@
+======================================================================
+SIGN LANGUAGE RECOGNITION - DETAILED CLASSIFICATION REPORT
+Generated: 1775216781.0
+======================================================================
+
+METHODOLOGY:
+----------------------------------------------------------------------
+This report was generated using 5-Fold Stratified Cross-Validation.
+Each sample was validated exactly once across all folds.
+All results are saved to Google Drive.
+
+METRIC DEFINITIONS:
+----------------------------------------------------------------------
+• Precision: Proportion of positive predictions that were correct
+• Recall: Proportion of actual positives that were correctly identified
+• F1-Score: Harmonic mean of precision and recall (balance both)
+• Support: Number of samples in each class
+
+CLASSIFICATION REPORT:
+----------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+    Airplane     0.8571    0.6667    0.7500         9
+         Bad     0.8889    0.8000    0.8421        10
+       Child     0.7857    1.0000    0.8800        11
+       Drink     0.9000    0.9000    0.9000        10
+        Drop     1.0000    1.0000    1.0000        10
+         Sit     0.7692    1.0000    0.8696        10
+        Stop     1.0000    1.0000    1.0000        10
+     Teacher     1.0000    0.9000    0.9474        10
+         Why     0.9000    0.9000    0.9000        10
+         Yes     1.0000    0.7778    0.8750         9
+
+    accuracy                         0.8990        99
+   macro avg     0.9101    0.8944    0.8964        99
+weighted avg     0.9085    0.8990    0.8979        99
+
+
+PER-CLASS ANALYSIS:
+----------------------------------------------------------------------
+
+Airplane:
+  Precision: 85.71%
+  Recall:    66.67%
+  F1-Score:  75.00%
+  Support:   9 samples
+
+Bad:
+  Precision: 88.89%
+  Recall:    80.00%
+  F1-Score:  84.21%
+  Support:   10 samples
+
+Child:
+  Precision: 78.57%
+  Recall:    100.00%
+  F1-Score:  88.00%
+  Support:   11 samples
+
+Drink:
+  Precision: 90.00%
+  Recall:    90.00%
+  F1-Score:  90.00%
+  Support:   10 samples
+
+Drop:
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+  Support:   10 samples
+
+Sit:
+  Precision: 76.92%
+  Recall:    100.00%
+  F1-Score:  86.96%
+  Support:   10 samples
+
+Stop:
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+  Support:   10 samples
+
+Teacher:
+  Precision: 100.00%
+  Recall:    90.00%
+  F1-Score:  94.74%
+  Support:   10 samples
+
+Why:
+  Precision: 90.00%
+  Recall:    90.00%
+  F1-Score:  90.00%
+  Support:   10 samples
+
+Yes:
+  Precision: 100.00%
+  Recall:    77.78%
+  F1-Score:  87.50%
+  Support:   9 samples
+
+
+CONFUSION MATRIX:
+----------------------------------------------------------------------
+Rows: Actual | Columns: Predicted
+
+True \ Pred    Airplane        Bad      Child      Drink       Drop        Sit       Stop    Teacher        Why        Yes
+----------------------------------------------------------------------------------------------------------------
+Airplane              6          0          0          0          0          2          0          0          1          0
+Bad                   0          8          1          1          0          0          0          0          0          0
+Child                 0          0         11          0          0          0          0          0          0          0
+Drink                 0          1          0          9          0          0          0          0          0          0
+Drop                  0          0          0          0         10          0          0          0          0          0
+Sit                   0          0          0          0          0         10          0          0          0          0
+Stop                  0          0          0          0          0          0         10          0          0          0
+Teacher               0          0          0          0          0          1          0          9          0          0
+Why                   1          0          0          0          0          0          0          0          9          0
+Yes                   0          0          2          0          0          0          0          0          0          7
+
+
+INTERPRETATION:
+----------------------------------------------------------------------
+• Diagonal values: Correct predictions
+• Off-diagonal values: Misclassifications
+• Higher diagonal values indicate better performance
+• Check off-diagonal patterns to identify confused class pairs

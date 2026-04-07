@@ -1,0 +1,16 @@
+              precision    recall  f1-score   support
+
+    Airplane       1.00      1.00      1.00         9
+         Bad       1.00      0.90      0.95        10
+       Child       1.00      0.82      0.90        11
+       Drink       1.00      1.00      1.00        10
+        Drop       1.00      1.00      1.00        10
+         Sit       1.00      1.00      1.00        10
+        Stop       0.91      1.00      0.95        10
+     Teacher       1.00      1.00      1.00        10
+         Why       1.00      1.00      1.00        10
+         Yes       0.82      1.00      0.90         9
+
+    accuracy                           0.97        99
+   macro avg       0.97      0.97      0.97        99
+weighted avg       0.97      0.97      0.97        99

@@ -1,6 +1,7 @@
 # 🤟 ASL Gesture Recognition — Comparative ML/DL Study
  
 > A comparative study of **Random Forest**, **LSTM**, **CNN**, and **CNN+LSTM** for recognizing 10 American Sign Language words from a **custom video dataset**, using MediaPipe hand landmarks as features.
+> https://docs.google.com/document/d/1RJCy1rqzqFcpuMXfVCxcRIk5Gi2vTHDe2H2r5EHUz4k/edit?usp=sharing
  
 ---
  

@@ -275,8 +275,6 @@ EDA conclusion: dataset is consistent, well-lit, and spatially stable — suitab
  
 ## Report
  
-📄 **Full project report:** *(add your PDF to the repo as `report/FDS_report.pdf` and link it here)*
- 
 The report covers: custom dataset design, EDA methodology, all 4 model architectures with code, results with confusion matrices, comparative analysis vs 16 published papers, and a discussion of why CNN outperformed the hybrid on this dataset.
  
 ---
@@ -295,12 +293,13 @@ The report covers: custom dataset design, EDA methodology, all 4 model architect
  
 ## Team
  
-| Name | Contribution |
+| Name | Registration Number |
 |------|-------------|
-| Ippili Sahasra | *(add role)* |
-| *(teammate)* | *(add role)* |
-| *(teammate)* | *(add role)* |
+| Ippili Sahasra | 24BCE5035 |
+| Deeksha Chowdary  | 24BCE1571 |
+| Adonia Alphonsa Romal | 24BCE5009 |
+| Suyesha Saha | 24BCE1962 |
  
 **Course:** Foundations of Data Science  
-**Institution:** *(add your institution)*  
+**Institution:** Vellore Institute of Technology 
 **Year:** 2024–25
